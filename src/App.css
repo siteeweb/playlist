@@ -1,0 +1,150 @@
+.App{
+  background-color: #000;
+}
+
+.head .navbar{
+  padding: 20px;
+}
+.head .button-navbar {
+  text-align: center;
+}
+.head .button-navbar:hover{
+  cursor: pointer;
+}
+.head .search span {
+  background-color: #fff;
+  color: #6e6e6e;
+}
+.head .sidebar{
+  background-color: rgb(0, 0, 0);
+  width: 0px;
+  height: 0px;
+  visibility: hidden;
+}
+.head .sidebar .btn-sidebar{
+  background-color: #000;
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  border: #000;
+}
+.head .btn-search:hover{
+  cursor: pointer;
+}
+.head .sidebar .btn-sidebar:hover{
+  color: rgb(255, 85, 55);
+}
+.head .sidebar .main-sidebar{
+  padding-top: 2rem;
+  text-align: center;  
+}
+.head .sidebar .main-sidebar a{
+  color: rgb(255, 255, 255);
+}
+.head .sidebar .main-sidebar a:hover{
+  color: rgb(255, 85, 55);
+}
+
+.body{
+  padding: 20px;
+  margin-top: 5rem;
+}
+.body .descrip{
+  background-color: #1d1d1d65;
+  color: #fff
+}
+.body .text{
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  color: rgb(255, 85, 55);
+}
+.portada{
+  background: url('https://estaticos-cdn.prensaiberica.es/clip/fc73a11e-18df-4129-91a0-e84113f3bf4f_21-9-aspect-ratio_default_0.jpg');
+  padding: 4rem;
+  background-attachment: fixed;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+.footer {
+  height: auto;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(19, 19, 19);
+  margin-top: 5rem;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.resume-music{
+  display: flex;
+  justify-content: center;
+}
+.resume-music img{
+  width: 5rem;
+  height: 5rem;
+  margin-right: 2rem;
+}
+.controller-playlist{
+  display: flex;
+  justify-content: center;
+}
+.controller-volume{
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+.StepBackward{
+ padding: 10px;
+ margin: 10px;
+}
+.StepBackward:hover{
+  cursor: pointer;
+  color: rgb(255, 85, 55);
+ }
+.Play{
+  padding: 10px;
+  margin: 10px;
+}
+.Play:hover{
+  cursor: pointer;
+  color: rgb(255, 85, 55);
+ }
+.StepForward{
+  padding: 10px;
+  margin: 10px;
+}
+.StepForward:hover{
+  cursor: pointer;
+  color: rgb(255, 85, 55);
+ }
+ .Volume{
+  padding: 10px;
+  margin: 10px;
+ }
+ .Volume:hover{
+   cursor: pointer;
+   color: rgb(255, 85, 55);
+  }
+/* End footer */
+
+/* Components */
+.card{
+  width: 18rem;
+  height: 20rem;
+  text-align: center;
+  margin: 5px;
+}
+.card img{
+  width: 18rem;
+  height: 10rem;
+}
+.card img:hover{
+  opacity: 0.6;
+}
+.card .card-body{
+  background-color: #e6e6e691;
+}
+/* End components */
+
+
+
